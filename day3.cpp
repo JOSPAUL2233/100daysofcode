@@ -46,21 +46,21 @@ int main(){
 // }
 //----------------------------------------------------------------------------------------------------------------
 //count the number of 1s in a number's binary number.
-int n;
-cout<<"Give any number to check the 1s in its binary number: ";
-cin>>n;
-int count = 0;
-while(n!=0){
+// int n;
+// cout<<"Give any number to check the 1s in its binary number: ";
+// cin>>n;
+// int count = 0;
+// while(n!=0){
 
-    if(n&1){
+//     if(n&1){
        
-        count++;
-    }
-    n=n>>1;
+//         count++;
+//     }
+//     n=n>>1;
 
-}
+// }
 
- cout<<"Numver of 1s : "<<count<<endl;
+//  cout<<"Numver of 1s : "<<count<<endl;
 
 
 
