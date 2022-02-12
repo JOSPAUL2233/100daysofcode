@@ -41,7 +41,7 @@ int main(){
 
     return 0;
 }
-//------------END OF MAIN FUNCTION-----------------------------------------------------------------
+//------------END OF MAIN FUNCTION------------------------------------------------
 
 
 
@@ -66,9 +66,12 @@ void alterswap(int arr[],int size){
 
 void printarr(int arr[],int size){
 
-    cout<<"Array Elements: ";
+    //cout<<"Array Elements: ";
+
     for(int i = 0 ;i<size;i++){
+
         cout<<arr[i]<<" ";
+
     }
 
     cout<<endl;
@@ -86,11 +89,13 @@ int findArrayIntersection(int arr1[],int arr2[],int res1_arr[],int size1,int siz
                     
                     res1_arr[count] = arr1[i];
                     count++;
+
                 }
 
         }
-        //cout<<"inside find array intersection."<<endl;
 
+        //cout<<"inside find array intersection."<<endl;
+        
     }
     
     return count;
