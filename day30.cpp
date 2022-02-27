@@ -1,10 +1,7 @@
 #include<iostream>
 using namespace std;
-
 int main(){
-
-
-//SOLVED QUESTIONS IN LEETCODE
-
+//did programming in geeksforgeeks
     return 0;
+
 }
