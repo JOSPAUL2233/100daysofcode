@@ -15,21 +15,21 @@ int peak_element(int[],int);
 
 int main(){
 
-//  int arr[100] = {1,2,4,7,8};//for(   1   ) and also give the size in a variable called size
+ int arr[100] = {1,2,4,7,8};//for(   1   ) and also give the size in a variable called size
 //  int arr[100] = {1,2,2,2,3};//for(   2   ) also give it's size in a variable called size
 //  int arr_left_right[2] = {0};//for(   2   ) give it's size
-   int arr[100] = {0,3,6,7,8,2,1}; //mountain array
-   int size = 7;
-// int key = 2;//forgiving a key when it is required (for both (   1   ) and (   2   ))
+   //int arr[100] = {0,3,6,7,8,2,1}; //mountain array
+   int size = 5;
+ int key = 4;//forgiving a key when it is required (for both (   1   ) and (   2   ))
 
 
 
 
 //---------------(   1   )for searching an element with the help of binary search.------------------------
-    // int index = binary_search(arr,size,key);
+    int index = binary_search(arr,size,key);
 
-    // if(index == -1)cout<<"ELEMENT NOT FOUND.";
-    // else cout<<"Element is found in index "<<index<<"."<<endl;
+    if(index == -1)cout<<"ELEMENT NOT FOUND.";
+    else cout<<"Element is found in index "<<index<<"."<<endl;
 
     
 
@@ -48,8 +48,8 @@ int main(){
 
     // }
 //-------------------(   3   )for finding out the peak element in a mountain array.-----------------------------
-    int peak_index = peak_element(arr,size);
-    cout<<"The peak element is in index "<<peak_index<<"."<<endl;
+    // int peak_index = peak_element(arr,size);
+    // cout<<"The peak element is in index "<<peak_index<<"."<<endl;
 
     
 
@@ -79,6 +79,8 @@ int binary_search(int arr[],int size,int key){
 
 
 }
+
+
 
 //-------------binary search for finding first and last appearance of the element-------------------------
 

@@ -8,13 +8,16 @@ void print_Arr(int[],int);
 int main(){
   //Reverse an array
 
+  
+
   int arr[100] = {2,5,2,1,0};
   int size = 5;
   reverse(arr,size);
   print_Arr(arr,size);
 
-
+    
     return 0;
+    
 }
 void reverse(int arr[],int size){
 
